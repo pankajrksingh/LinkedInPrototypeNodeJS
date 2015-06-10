@@ -1,0 +1,357 @@
+div {
+display: block;
+}
+
+#header {
+padding-bottom: 5px;
+-webkit-box-shadow: 0 1px 4px #ccc;
+-moz-box-shadow: 0 1px 4px #ccc;
+box-shadow: 0 1px 4px #ccc;
+z-index: 200;
+background: #F4F4F4;
+border-bottom: 1px solid #CDCDCD;
+position: absolute;
+top: 0;
+width: 100%;
+height: auto;
+}
+
+#header .container {
+margin: auto;
+width: 980px;
+}
+
+#header .container .login {
+margin-top: 12px;
+margin-right: 12px;
+float: right;
+}
+
+#header h1 {
+float: left;
+}
+
+img {
+border: none;
+}
+
+#header .logincontainer
+{
+	padding-right: 8px;
+}
+
+#main-wrapper {
+margin-top: 62px;
+}
+
+#main {
+margin-left: auto;
+margin-right: auto;
+width: 974px;
+overflow: hidden;
+}
+
+#content h2 {
+padding-top: 30px;
+font-size: 28px;
+font-weight: bold;
+line-height: 30px;
+color: #000;
+font-size: 34px;
+line-height: 40px;
+text-align: center;
+}
+
+.two-row-image {
+float: left;
+margin-right: 40px;
+margin-top: 100px;
+width: 500px;
+}
+
+
+.jointoday {
+margin-left: 10px;
+float: left;
+width: 400px;
+padding-top: 50px;
+padding-bottom: 25px;
+}
+
+.jointoday form.feature {
+margin-top: 15px;
+}
+
+.jointoday form.feature fieldset {
+overflow: hidden;
+}
+
+
+.jointoday form.feature div.form-bottom-row {
+overflow: hidden;
+max-width: 360px;
+margin-top: 0px;
+margin-bottom: 10px;
+}
+
+.jointoday form.feature p.policy {
+font-size: 14px;
+line-height: 14px;
+color: #333;
+font-weight: normal;
+text-decoration: none;
+}
+
+.jointoday form.feature p.policy a {
+font-size: 14px;
+line-height: 14px;
+color: #333;
+font-weight: bold;
+text-decoration: none;
+}
+.jointoday form.feature p.action {
+float: none;
+}
+
+.jointoday .btn-action {
+font-weight: bold;
+border-width: 1px;
+border-style: solid;
+cursor: pointer;
+margin: 0;
+overflow: visible;
+text-decoration: none !important;
+width: 400px;
+text-shadow: 0 1px 1px rgba(255,255,255,0.75);
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+-ms-border-radius: 3px;
+-o-border-radius: 3px;
+border-radius: 3px;
+padding: 0 15px;
+height: 34px;
+line-height: 32px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+font-size: 16px;
+color: #333;
+background-color: #f6e312;
+border-color: #e9ac1a;
+filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFF6E312', endColorstr='#FFF9C80D');
+background-image: -webkit-linear-gradient(top, #f6e312 0%,#f9c80d 100%);
+background-image: -moz-linear-gradient(top, #f6e312 0%,#f9c80d 100%);
+background-image: -o-linear-gradient(top, #f6e312 0%,#f9c80d 100%);
+background-image: linear-gradient(top, #f6e312 0%,#f9c80d 100%);
+white-space: nowrap;
+display: -moz-inline-stack;
+display: inline-block;
+vertical-align: middle;
+zoom: 1;
+vertical-align: middle;
+margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#top-header {
+background-color: #3f3f3f;
+background-image: -webkit-linear-gradient(top, #696969 0%,#3f3f3f 100%);
+background-image: -moz-linear-gradient(top, #696969 0%,#3f3f3f 100%);
+background-image: -o-linear-gradient(top, #696969 0%,#3f3f3f 100%);
+background-image: linear-gradient(top, #696969 0%,#3f3f3f 100%);
+height: 62px;
+}
+
+
+.search-button {
+font-weight: bold;
+border-width: 1px;
+border-style: solid;
+cursor: pointer;
+margin: 0;
+overflow: visible;
+text-decoration: none !important;
+width: 100px;
+text-shadow: 0 1px 1px rgba(0,0,0,0.35);
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+-ms-border-radius: 3px;
+-o-border-radius: 3px;
+border-radius: 3px;
+padding: 0 13px;
+height: 31px;
+line-height: 29px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+font-size: 13px;
+color: #fff;
+background-color: #287bbc;
+border-color: #1b5480;
+filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF287BBC', endColorstr='#FF23639A');
+background-image: -webkit-linear-gradient(top, #287bbc 0%,#23639a 100%);
+background-image: -moz-linear-gradient(top, #287bbc 0%,#23639a 100%);
+background-image: -o-linear-gradient(top, #287bbc 0%,#23639a 100%);
+background-image: linear-gradient(top, #287bbc 0%,#23639a 100%);
+white-space: nowrap;
+display: -moz-inline-stack;
+display: inline-block;
+vertical-align: middle;
+zoom: 1;
+vertical-align: middle;
+margin-left: 5px;
+margin-right: 5px;
+padding-left: 3px;
+padding-right: 3px;
+float: left;
+height: 37px;
+line-height: 25px;
+overflow: hidden;
+margin-top: 10px;
+}
+
+
+
+.search-box {
+-webkit-appearance: textfield;
+padding: 1px;
+background-color: white;
+border: 2px inset;
+border-image-source: initial;
+border-image-slice: initial;
+border-image-width: initial;
+border-image-outset: initial;
+border-image-repeat: initial;
+-webkit-rtl-ordering: logical;
+-webkit-user-select: text;
+cursor: auto;
+padding: 1px 0px;
+width: 400px;
+height: 37px;
+margin-top: 10px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+-ms-border-radius: 3px;
+-o-border-radius: 3px;
+border-radius: 3px;
+padding: 0 13px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+#mainbody {
+	background-color: #E7E9EC;
+	padding-bottom: 5px;
+}
+
+
+.componentArea {
+  background: #fff;
+  margin: 20px;
+ }
+ 
+.componentArea h1 {
+  padding-left: 20px;
+  font-size: x-large;
+ }
+ 
+ 
+ .components {
+  background: #fff;
+  margin: 5px;
+  padding: 20px;
+ }
+ 
+ .profilearea {
+  background: #fff;
+  margin: 20px;
+  padding: 20px;
+ }
+ 
+  .profilearea img {
+  float: left;
+  padding: 10px;
+ }
+ 
+ .profilearea h1 {
+  padding-left: 10px;
+ }
+
+ 
+ #LogoutButton {
+ 	float: right;
+ 	color: black;
+ }
+ .logoutbutton{
+ 	float: right;
+ }
+ 
+ .statement {
+  font-size: 15px;
+  line-height: 17px;
+  color: #333;
+  font-weight: normal;
+  color: #96999c;
+  overflow: hidden;
+}
+
+.componentArea h4 {
+  font-size: 20px;
+  color: #333;
+  font-weight: large;
+  color: #96999c;
+  overflow: hidden;
+ }
+ 
+ .componentArea h5 {
+  font-size: 15px;
+  color: #333;
+  font-weight: normal;
+  color: #96999c;
+  overflow: hidden;
+ }
+ 
+  .components button {
+  height: 30px;
+  margin-left: 25px;
+ }
+ 
+ .connectedUserarea {
+   background: #fff;
+  margin: 20px;
+  padding: 20px;
+ }
+ 
+  .perUserConnections {
+  margin: 10px;
+  padding: 10px;
+ }
+ 
+  .connectedUserarea h2 {
+    margin-left: auto;
+    margin-right: auto;
+ }
+   .connectedUserarea img {
+    margin-left: auto;
+    margin-right: auto;
+ }
+ 
+.connectedUserarea md-button {
+    margin-left: auto;
+    margin-right: auto;
+ }

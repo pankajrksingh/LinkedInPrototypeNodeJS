@@ -1,0 +1,85 @@
+  `<div id="header" ng-controller="LoginController">
+		<div class="container">
+	  		<h1><img src="../images/DoublyLinkedIn_logo.png" height="32" width="182" ></h1>
+	  		<form ng-submit="login()">
+		  		<div class="login" layout="row">
+					<div layout="column" class="logincontainer">
+						<label>Email address</label>
+						<input class="form-control" ng-model="credentials.username" type="text" name="session_username" id="session_username" autofocus="" size="20"">
+					</div>
+				  	<div layout="column" class="logincontainer">
+				  		<label>Password</label>
+				  		<input class="form-control" ng-model="credentials.password" type="password" name="session_password" id="session_password" size="20">
+				  	</div>
+			  		<!-- p>{{ ErrorMessage }}</p -->
+				  	<div layout="column">
+				  		<br>
+				  		<input type="submit" name="login" value="Sign In" id="login">
+
+				  	</div>
+		  		</div>
+	  		</form>
+		</div>
+	</div>
+	<div id="main-wrapper">
+		<div id="main">
+			<header>
+				<div id="content">
+					<h2><span class="text-gradient"></span><span class="headline">
+					Join the world's largest professional network.
+					</span></h2>
+				</div>
+			</header>
+			<section>
+				<div layout="column" class="two-row-image">
+					<div layout="row">
+						<img src="https://static.licdn.com/scds/common/u/images/apps/home/guesthome/ghp_international_1_150x150_v1.png" width="150" height="150" alt="Male Headshot">
+						<img src="https://static.licdn.com/scds/common/u/images/apps/home/guesthome/ghp_international_2_150x150_v1.png" width="150" height="150" alt="Female Headshot">
+						<img src="https://static.licdn.com/scds/common/u/images/apps/home/guesthome/ghp_international_3_150x150_v1.png" width="150" height="150" alt="Male Headshot">
+					</div>
+					<div layout="row">
+						<img src="https://static.licdn.com/scds/common/u/images/apps/home/guesthome/ghp_international_4_150x150_v1.png" width="150" height="150" alt="Female Headshot">
+						<img src="https://static.licdn.com/scds/common/u/images/apps/home/guesthome/ghp_international_5_150x150_v1.png" width="150" height="150" alt="Male Headshot">
+						<img src="https://static.licdn.com/scds/common/u/images/apps/home/guesthome/ghp_international_6_150x150_v1.png" width="150" height="150" alt="Male Headshot">
+					</div
+				</div>
+			</section>
+			<section>
+				<div class="jointoday" id="module-id3">
+					<form ng-submit="signup()" class="feature">	
+						<div class="header">
+							<h2>Get started – it’s free.</h2>
+						</div>
+						<div class="content">
+							<p>Registration takes less than 2 minutes.</p>			
+							<div layout layout-sm="column">
+							  <md-input-container flex>
+								<label>First Name</label>
+								<input ng-model="details.firstName" placeholder="First Name">
+							  </md-input-container>
+							  <md-input-container flex>
+								<label>Last Name</label>
+								<input ng-model="details.lastName" placeholder="Last Name">
+							  </md-input-container>
+							</div>
+							<md-input-container flex>
+							  <label>Email Address</label>
+							  <input ng-model="details.userName" placeholder="Email Address">
+							</md-input-container>
+							<md-input-container flex>
+							  <label>Password</label>
+							  <input type="password" ng-model="details.password" placeholder="Password">
+							</md-input-container>
+							
+						</div>
+						<div class="form-bottom-row">
+						<p class="policy">By clicking Join Now, you agree to LinkedIn's <a href="http://www.linkedin.com/static?key=user_agreement">User Agreement</a>, <a href="http://www.linkedin.com/static?key=privacy_policy">Privacy Policy</a> and <a href="http://www.linkedin.com/legal/cookie-policy">Cookie Policy</a>.</p>
+						<p class="action">
+							<input type="submit" name="" value="Join now" id="btn-submit" class="btn-action" tabindex="9">
+						</p>
+						</div>
+					</form>	
+				</div>
+			</section>
+		<div>
+	</div>

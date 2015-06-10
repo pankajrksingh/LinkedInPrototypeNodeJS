@@ -1,0 +1,82 @@
+<div ng-controller="UserActions" id="mainbody" ng-init="searchUser()">
+		<div id="top-header">
+				<div class="header-section first-child" layout="row" layout-align="center center">
+					<input name="keywords" id="main-search-box" ng-model="searhUserValue" class="search-box" type="text" value="" placeholder="Search for people">
+					<button name="search" value="Search" ng-click="searchUser()" class="search-button" type="submit">
+						<span>Search</span>
+					</button>
+				</div>
+		</div>
+	  	<md-toolbar>
+	    <h1 class="md-toolbar-tools">
+	      <span></span>
+  	      <md-button class="md-raised" ng-href="/#/home">Home</md-button>      
+	      <md-button class="md-raised" ng-href="/#/connections">Connections</md-button>
+	      <md-button class="md-raised" ng-href="/#/pendinguser">Pending Connections</md-button>
+	      <md-button ng-controller="LoginController" class="md-raised logoutbutton" ng-click="logout()">Logout</md-button>
+	    </h1>
+	  	</md-toolbar>
+		<div class="profilearea" layout="column">
+			<div layout="row">
+				<div layout="column">
+				<img src="../images/profile_photo.png" height="220" width="200" >
+				<md-button class="md-raised md-warn" ng-click="connectUser()" ng-show="searcheduserStatus">Connect</md-button>
+				</div>
+			<div>
+				<h1>{{ searcheduserName }}<h1>
+			</div>
+			</div>
+		</div>
+		<div class="componentArea">
+		  	<md-toolbar>
+		  		<h1> Summary </h1>
+		  	</md-toolbar>
+		  	<div class="components">
+		  		<div layout="row">
+			  		<p class="statement">{{ searcheduserSummary }}</p>
+			  	</div>
+		  	</div>
+		</div>
+		<div class="componentArea">
+		  	<md-toolbar>
+		  		<h1> Experience </h1>
+		  	</md-toolbar>
+		  	<div class="components">
+		  		<div ng-repeat="experience in searcheduserExperience">
+			  		<div layout="row">
+		  				<h4>{{experience.company}}</h4>
+		  			</div>
+		  			<h5>{{experience.position}}</h5>
+		  			<h5>{{experience.from}} - {{experience.to}}</h5>
+		  			<br>
+		  		</div>
+		  	</div>
+		</div>		
+		<div class="componentArea">
+		  	<md-toolbar>
+		  		<h1> Skills </h1>
+		  	</md-toolbar>
+		  	<div class="components">
+		  		<div ng-repeat="skillset in searcheduserSkillList">
+		  			<div layout="row">
+		  				<h5>{{skillset.skill}}</h5>
+		  			</div>
+		  		</div>
+		  	</div>
+		</div>	
+		<div class="componentArea">
+		  	<md-toolbar>
+		  		<h1> Education </h1>
+		  	</md-toolbar>
+		  	<div class="components">
+		  		<div ng-repeat="eduList in searcheduserEducationList">
+		  			<div layout="row">
+		  				<h4>{{eduList.institution}}</h4>
+		  			</div>
+		  			<h5>{{eduList.degree}}</h5>
+		  			<h5>{{eduList.from}} - {{eduList.to}}</h5>
+		  			<br>
+		  		</div>
+		  	</div>
+		</div>
+</div>
